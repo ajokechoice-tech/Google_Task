@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 20px 10px;
+}
+a{
+    text-decoration: none;
+}
+#menulinks a{
+    color: #333;
+}
+#menulinks a:hover{
+    text-decoration: underline;
+}
+#signin{
+    background-color: #0b60e0;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin-right: 20px;
+}
+#logo img{
+    display: block;
+    margin: auto;
+    clear: both;
+    padding-top: 150px;
+}
+.searchitem{
+    text-align: center;
+}
+form #searchbox{
+    width: 350px;
+    line-height: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+.btn #googlesearch, #lucky{
+    padding: 5px;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    margin-bottom: 250px;
+}
+footer{
+    background-color: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
+    width: 100%;
+    bottom: 0;
+}
+footer .left{
+    float: left;
+    padding-top: 50px;
+}
+footer .right{
+    float: right;
+    padding-top: 50px;
+}
+footer ul li{
+    display: inline;
+    padding: 40px;
+    font-size: 14px;
+    color: orangered;
+}
